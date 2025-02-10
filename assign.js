@@ -113,14 +113,3 @@ for (let i = 0; i < split_name.length; i++) {
 }
 
 console.log(split_name.join(""))
-let name_str = "hELLO wORLD"
-let split_name = name_str.split("")
-for (let i = 0; i < split_name.length; i++) {
-  if (split_name[i] == split_name[i].toLowerCase()) {
-    split_name[i] = split_name[i].toUpperCase()
-  } else {
-    split_name[i] = split_name[i].toLowerCase()
-  }
-}
-
-console.log(split_name.join(""))
