@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaSCRIPT</title>
+    <link rel="stylesheet" href="accordian-style.css">
+
+</head>
+<body>
+    <!-- <div class="marg-center wid-max">
+        <header>
+            <div class="navbar wid-max">
+                <div class="logo">
+                    <a href="index.html"><img class="wid-max" src="/images/logo.png" alt="Graze logo"></a>
+                </div>
+                <div class="ham-search">
+                    <div class="search">
+                        <img src="/images/icons8-search-50.png" alt="Search">
+                    </div>
+                    <div class="hamburger">
+                        <img src="/images/icons8-hamburger-menu-50.png" alt="hamburger-menu">
+                    </div>
+                </div>
+                <div class="nav-links">
+                    <ul class="drop-down">
+                        <li>Products
+                            <div class="prod-dropdown">
+                                <ul class="prods">
+                                    <li>All Products</li>
+                                    <li>Oats Boosts</li>
+                                    <li>Crunch</li>
+                                    <li>On the Go</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>About Us
+                            <div class="prod-dropdown">
+                                <ul class="prods">
+                                    <li>About Graze</li>
+                                    <li>No Snackrifices</li>
+                                    <li>Snack To The Future</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>Careers</li>
+                        <li class="search">
+                            Search
+                            <img src="/images/icons8-search-50.png" alt="search">
+                        </li>
+                        <li class="theme"><button onclick="Themechange()">Theme</button></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="banner-container">
+                <div class="banner-image">
+                    <img class="wid-max" src="/images/desktop-banner.jpg" alt="healthy snacks">
+                </div>
+            </section>
+            <section class="product-listing  marg-center" id="pl">
+                <div class="prod-div wid-1300px marg-center">
+                    <h2 class="p22-font">Our Product Ranges</h2>
+                    <ul class="prod-list marg-center">
+                        <li>
+                            <div class="product-container marg-center">
+                                <div class="img-container">
+                                    <img src="/images/ban1.jpg">
+                                </div>
+                                <div class="text-container">
+                                    <h3 class="p22-bold-font">Oat Boosts</h3>
+                                    <p class="poppins-font">Baked in the UK and made from wholegrain oats, our Oat Boosts are the perfect pick-me-up you won’t be able to put down.</p>
+                                    <button class="poppins-font text-cap"><a href="/oat-products/oat-products.html" target="_blank">find out more</a></button>
+                                </div>
+    
+                            </div>
+                        </li>
+                        <li class="hidden-768">
+                            <div class="product-container marg-center">
+                                <div class="img-container">
+                                    <img src="/images/ban2.jpg">
+                                </div>
+                                <div class="text-container">
+                                    <h3 class="p22-bold-font">Crunch</h3>
+                                    <p class="poppins-font">The best thing since sliced potatoes. Our mouthwatering Crunch is packed with veg and there are 8 delicious flavours to choose from.</p>
+                                    <button class="poppins-font text-cap">find out more</button>
+                                </div>
+    
+                            </div>
+                        </li>
+                        <li class="hidden-768">
+                            <div class="product-container marg-center">
+                                <div class="img-container">
+                                    <img src="/images/ban4.jpg">
+                                </div>
+                                <div class="text-container">
+                                    <h3 class="p22-bold-font">On The Go</h3>
+                                    <p class="poppins-font">For the grazers, movers and shakers. Pop your favourite snacks in your bag or pocket to enjoy wherever hunger strikes.</p>
+                                    <button class="poppins-font text-cap">find out more</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="snackrifice wid-max">
+                <div class="main-container wid-1300px marg-center ">
+                    <div class="heading-text">
+                        <h2 class="p22-bold-font">No Snackrifices</h2>
+                        <p class="poppins-font">All of our snacks are packed with flavour and benefits, so you never have to compromise at snack-time.</p>
+                    </div>
+                    <div class="prod-container">
+                        <ul class="snack-list">
+                            <li>
+                                <div class="item-container">
+                                    <div class="img-container">
+                                        <img src="/images/leaf.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <p class="poppins-font">Simple ingredients</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-container">
+                                    <div class="img-container">
+                                        <img src="/images/flask.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <p class="poppins-font">No artificial colours, flavours or preservatives</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-container">
+                                    <div class="img-container">
+                                        <img src="/images/down-arrow.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <p class="poppins-font">None of our snacks are high in salt</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-container">
+                                    <div class="img-container">
+                                        <img src="/images/star.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <p class="poppins-font">Each snack will have at least one of these: ​plant protein, ​fibre and essential vitamins and minerals</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-container">
+                                    <div class="img-container">
+                                        <img src="/images/tick.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <p class="poppins-font">Responsible thresholds on calories, sugar, salt and saturated fat.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-container">
+                                    <div class="img-container">
+                                        <img src="/images/scale.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <p class="poppins-font">Always perfectly portioned</p>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                        <div>
+                            <button class="poppins-font text-cap find-more marg-center">find out more</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fav wid-max">
+                <div class="fav-main wid-1300px marg-center">
+                    <div class="container marg-center">
+                        <div class="heading-text">
+                            <h2 class="p22-bold-font">Our Grazer's Favourites</h2>
+                        </div>
+                        <button class="poppins-font text-cap find-more">find out more</button>
+                        <div class="btn">
+                            <button class="poppins-font">Oat Boosts</button>
+                            <button class="poppins-font">Crunch</button>
+                            <button class="poppins-font">On The Go</button>
+                        </div>
+                    </div>
+                    <div class="grazer-list">
+                        <ul class="grazer-prod marg-center">
+                            <li>
+                                <div class="prod-container">
+                                    <div class="img-container">
+                                        <img src="/images/grazer.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <h4 class="p22-font">Cocoa Vanilla Oat Boosts 4 x 30g</h4>
+                                    </div>
+                                    <button class="text-cap poppins-font">buy it now</button>
+                                    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="prod-container">
+                                    <div class="img-container">
+                                        <img src="/images/grazer.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <h4 class="p22-font">Cocoa Vanilla Oat Boosts 4 x 30g</h4>
+                                    </div>
+                                    <button class="text-cap poppins-font">buy it now</button>
+                                    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="prod-container">
+                                    <div class="img-container">
+                                        <img src="/images/grazer.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <h4 class="p22-font">Cocoa Vanilla Oat Boosts 4 x 30g</h4>
+                                    </div>
+                                    <button class="text-cap poppins-font">buy it now</button>
+                                    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="prod-container">
+                                    <div class="img-container">
+                                        <img src="/images/grazer.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <h4 class="p22-font">Cocoa Vanilla Oat Boosts 4 x 30g</h4>
+                                    </div>
+                                    <button class="text-cap poppins-font">buy it now</button>
+                                    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="prod-container">
+                                    <div class="img-container">
+                                        <img src="/images/grazer.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <h4 class="p22-font">Cocoa Vanilla Oat Boosts 4 x 30g</h4>
+                                    </div>
+                                    <button class="text-cap poppins-font">buy it now</button>
+                                    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="prod-container">
+                                    <div class="img-container">
+                                        <img src="/images/grazer.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <h4 class="p22-font">Cocoa Vanilla Oat Boosts 4 x 30g</h4>
+                                    </div>
+                                    <button class="text-cap poppins-font">buy it now</button>
+                                    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="prod-container">
+                                    <div class="img-container">
+                                        <img src="/images/grazer.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <h4 class="p22-font">Cocoa Vanilla Oat Boosts 4 x 30g</h4>
+                                    </div>
+                                    <button class="text-cap poppins-font">buy it now</button>
+                                    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="prod-container">
+                                    <div class="img-container">
+                                        <img src="/images/grazer.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <h4 class="p22-font">Cocoa Vanilla Oat Boosts 4 x 30g</h4>
+                                    </div>
+                                    <button class="text-cap poppins-font">buy it now</button>
+                                    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="prod-container">
+                                    <div class="img-container">
+                                        <img src="/images/grazer.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <h4 class="p22-font">Cocoa Vanilla Oat Boosts 4 x 30g</h4>
+                                    </div>
+                                    <button class="text-cap poppins-font">buy it now</button>
+                                    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="prod-container">
+                                    <div class="img-container">
+                                        <img src="/images/grazer.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <h4 class="p22-font">Cocoa Vanilla Oat Boosts 4 x 30g</h4>
+                                    </div>
+                                    <button class="text-cap poppins-font">buy it now</button>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="banner-mid wid-max">
+                <div class="banner-container wid-max">
+                    <img class="wid-max" src="/images/banner2.jpg">
+            </section>
+
+        </main>
+        <footer>
+            <section class="primary-footer wid-max wid-1300px marg-center">
+                <div class="cmp-img wid-1300px marg-center">
+                    <a class="wid-max" href="index.html"><img class="wid-max" src="/images/footer-img.png" alt="Graze.com"></a>
+                </div>
+                <div class="primary-footer-main wid-1300px marg-center">
+                    <div class="follow marg-center">
+                        <h3 class="poppins-font">Follow us</h3>
+                        <ul>
+                            <li class="face"></li>
+                            <li class="insta"></li>
+                            <li class="x"></li>
+                        </ul>
+                    </div>
+                    <div class="signup">
+                        <div class="text">
+                            <p class="poppins-font">Sign up to be the first to hear about exclusive news and more</p>
+                        </div>
+                        <div class="mail marg-center">
+                            <input class="i-mail" type="email" placeholder="Enter your email">
+                            <button class="poppins-font">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="footer-list wid-1300px marg-center">
+                        <div class="container-list">
+                            <h3 class="poppins-font">Products</h3>
+                        <ul class="products-list poppins-font">
+                            <li>Crunch</li>
+                            <li>Oat Boosts</li>
+                            <li>On the Go</li>
+                        </ul>
+                        </div>
+                        <div class="container-list">
+                            <h3 class="poppins-font">About Graze</h3>
+                            <ul class="about-list poppins-font">
+                                <li>About Us</li>
+                                <li>No Snackrifices</li>
+                                <li>Snack to The Future</li>
+                                <li>Careers</li>
+                                <li>Sitemap</li>
+                                <li>Help</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="terms wid-1300px marg-center">
+                        <div class="uni">
+                            <p class="poppins-font">&copy;2025 Unilever</p>
+                        </div>
+                        <ul class="list-data poppins-font">
+                            <li>Terms of Use</li>
+                            <li>Privacy Notice</li>
+                            <li>Cookie Notice</li>
+                            <li>Accessibility</li>
+                            <li> Modern Slavery Statement</li>
+                            <li>Gender Pay Report</li>
+                        </ul>
+                    </div>
+            </section>
+        </footer>        
+
+    </div> -->
+<script src="assign.js"></script>
+</body>
+</html>
