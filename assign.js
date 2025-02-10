@@ -52,7 +52,7 @@ const move_index_two = 2 ;// index number
   array[move_index_one],
 ]
 // simple [a,b]=[b,a] -> swaping the numbers
-console.log(array)
+// console.log(array)
 
 // que 2 Write a JavaScript function to sort the following array of objects by title value.
 var library = [
