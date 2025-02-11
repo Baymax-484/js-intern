@@ -113,3 +113,4 @@ for (let i = 0; i < split_name.length; i++) {
 }
 
 console.log(split_name.join(""))
+console.log(split_name.join(""))
