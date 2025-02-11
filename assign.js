@@ -7,6 +7,12 @@ if (search_one == size_str) {
 } else {
   console.log("False");
 }
+
+// // 1. Test whether a string starts with a specified string.
+// let main = "This is a string";
+// let search_one = "This";
+// console.log(main.startsWith(search_one));
+
 //2.Capitalize first Letter of a String
 
 let main_string = "hello"
@@ -14,11 +20,21 @@ first=main_string[0]
 cap=first.toUpperCase()
 main_string = main_string.replace(first,cap)
 console.log(main_string)
+
+
+// // 2. Capitalize first letter of a string.
+// let main_string = "hello";
+// console.log(main_string.charAt(0).toUpperCase() + main_string.slice(1));
+
 //3.Count Words from the String
 
 let main_str="hi hello bye see you!"
 let words_count = main_str.split(" ")
 console.log(words_count.length)
+
+// // 3. Count words from the string.
+// let main_str = "hi hello bye see you!";
+// console.log(main_str.split(" ").length);
 
 //4.Reverse A string
 let line_str = "hi! my name is Dev"
@@ -28,6 +44,10 @@ for (let i=line_str.length;i>=0;i--)
     reverse+=line_str[i];
 }
 console.log(reverse)
+
+// // 4. Reverse a string.
+// let line_str = "hi! my name is Dev";
+// console.log(line_str.split("").reverse().join(""));
 
 // duplicate number in array
 let arr = [1, 2, -2, 4, 5, 4, 7, 8, 7, 71, 3, 6]
@@ -41,6 +61,12 @@ for (i = 0; i < arr.length; i++) {
 }
 console.log("duplicate elements are: "+dup)
 
+
+// // Find duplicate numbers in an array.
+// let arr = [1, 2, -2, 4, 5, 4, 7, 8, 7, 71, 3, 6];
+// let dup = arr.filter((item, index) => arr.indexOf(item) !== index);
+// console.log("duplicate elements are: " + [...new Set(dup)]);
+
 // que 3. Write a JavaScript function to move an array element from one position to another.
 // 0  1  2  3  4
 const array = [1, 2, 3, 4, 5]
@@ -53,6 +79,15 @@ const move_index_two = 2 ;// index number
 ]
 // simple [a,b]=[b,a] -> swaping the numbers
 // console.log(array)
+
+
+// // 3. Move an array element from one position to another.
+// const array = [1, 2, 3, 4, 5];
+// const move_index_one = 0;
+// const move_index_two = 2;
+// [array[move_index_one], array[move_index_two]] = [array[move_index_two], array[move_index_one]];
+// console.log(array);
+
 
 // que 2 Write a JavaScript function to sort the following array of objects by title value.
 var library = [
@@ -75,6 +110,15 @@ for (let i = 0; i < library.length; i++) {
   }
 }
 console.log(library)
+
+// // 2. Sort array of objects by title value.
+// let library = [
+//   { author: "Bill Gates", title: "anos", libraryID: 1254 },
+//   { author: "Steve Jobs", title: "thor", libraryID: 4264 },
+//   { author: "Suzanne Collins", title: "bhulk", libraryID: 3245 },
+// ];
+// library.sort((a, b) => a.title.localeCompare(b.title));
+// console.log(library);
 
 // que 5. Write a JavaScript function to find the difference between two arrays.
 let arr_1 = [10, 20, 50, 30, 40]
@@ -101,6 +145,12 @@ function array_difference() {
 array_difference()
 console.log(empty_array)
 
+// // 5. Find the difference between two arrays.
+// let arr_1 = [10, 20, 50, 30, 40];
+// let arr_2 = [90, 80, 20, 10, 30];
+// let difference = arr_1.concat(arr_2).filter(item => !arr_1.includes(item) || !arr_2.includes(item));
+// console.log(difference);
+
 // que 4.
 let name_str = "hELLO wORLD"
 let split_name = name_str.split("")
@@ -113,52 +163,19 @@ for (let i = 0; i < split_name.length; i++) {
 }
 console.log(split_name.join(""))
 
-
-// // 1. Test whether a string starts with a specified string.
-// let main = "This is a string";
-// let search_one = "This";
-// console.log(main.startsWith(search_one));
-
-// // 2. Capitalize first letter of a string.
-// let main_string = "hello";
-// console.log(main_string.charAt(0).toUpperCase() + main_string.slice(1));
-
-// // 3. Count words from the string.
-// let main_str = "hi hello bye see you!";
-// console.log(main_str.split(" ").length);
-
-// // 4. Reverse a string.
-// let line_str = "hi! my name is Dev";
-// console.log(line_str.split("").reverse().join(""));
-
-// // Find duplicate numbers in an array.
-// let arr = [1, 2, -2, 4, 5, 4, 7, 8, 7, 71, 3, 6];
-// let dup = arr.filter((item, index) => arr.indexOf(item) !== index);
-// console.log("duplicate elements are: " + [...new Set(dup)]);
-
-// // 3. Move an array element from one position to another.
-// const array = [1, 2, 3, 4, 5];
-// const move_index_one = 0;
-// const move_index_two = 2;
-// [array[move_index_one], array[move_index_two]] = [array[move_index_two], array[move_index_one]];
-// console.log(array);
-
-// // 2. Sort array of objects by title value.
-// let library = [
-//   { author: "Bill Gates", title: "anos", libraryID: 1254 },
-//   { author: "Steve Jobs", title: "thor", libraryID: 4264 },
-//   { author: "Suzanne Collins", title: "bhulk", libraryID: 3245 },
-// ];
-// library.sort((a, b) => a.title.localeCompare(b.title));
-// console.log(library);
-
-// // 5. Find the difference between two arrays.
-// let arr_1 = [10, 20, 50, 30, 40];
-// let arr_2 = [90, 80, 20, 10, 30];
-// let difference = arr_1.concat(arr_2).filter(item => !arr_1.includes(item) || !arr_2.includes(item));
-// console.log(difference);
-
 // // 4. Toggle case of each character in a string.
 // let name_str = "hELLO wORLD";
 // let toggled = name_str.split("").map(char => char === char.toLowerCase() ? char.toUpperCase() : char.toLowerCase()).join("");
 // console.log(toggled);
+
+
+
+
+
+
+
+
+
+
+
+
