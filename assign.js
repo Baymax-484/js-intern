@@ -167,15 +167,3 @@ console.log(split_name.join(""))
 // let name_str = "hELLO wORLD";
 // let toggled = name_str.split("").map(char => char === char.toLowerCase() ? char.toUpperCase() : char.toLowerCase()).join("");
 // console.log(toggled);
-
-
-
-
-
-
-
-
-
-
-
-
