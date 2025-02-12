@@ -1,0 +1,85 @@
+body {
+    font-family: cursive;
+    background:#F7F7F7;
+  }
+  /* Style the tab container */
+  .tab-container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the tab buttons */
+  .tab-buttons {
+    display: flex;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .tab-button {
+    flex: 1;
+    padding: 12px 16px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    /* transition: all 0.3s ease; */
+  }
+  
+  .tab-button:hover {
+    background-color: #7886c7;
+    color: #fff;
+  }
+  
+  .tab-button.active {
+    background-color: #a9b5df;
+    color: white;
+    border-bottom: 2px solid #7886c7;
+  }
+  
+  /* Style the tab content */
+  .tab-content {
+    padding: 20px;
+    text-align: center;
+    background: #fff2f2;
+    padding: 6px 12px;
+    border: 1px solid #7886c7;
+    border-top: none;
+  }
+  
+  .tab-pane {
+    display: none;
+    /* animation: fadeIn 0.5s ease; */
+  }
+  .tab-pane img {
+    width: 100%;
+  }
+  .tab-pane strong {
+    color: red;
+  }
+  .tab-pane .prime_blue {
+    color: #0D7CFF;
+  }
+  
+  .tab-pane.active {
+    display: block;
+  }
+  /* .tab-pane.active:hover{
+      display:block;
+  } */
+  
+  /* Fade-in animation
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  } */
