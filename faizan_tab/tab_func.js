@@ -24,6 +24,25 @@
 //     document.querySelector(".tab-button").click()
 //   })
 
+// function food_delivery(event, Applications) {
+    
+//   let tabPanes = document.getElementsByClassName("tab-pane");
+//   for (let i = 0; i < tabPanes.length; i++) {
+//       tabPanes[i].style.display = "none"; 
+//   }
+
+//   let tabButtons = document.getElementsByClassName("tab-button");
+//   for (let i = 0; i < tabButtons.length; i++) {
+//       tabButtons[i].classList.remove("active");
+//   }
+
+
+//   document.getElementById(Applications).style.display = "block";
+
+
+//   event.currentTarget.classList.add("active");
+// }
+
 function openTab(evt, tabId) {
   // Hide all tab panes
   document.querySelectorAll(".tab-pane").forEach(function(tabPane) {
